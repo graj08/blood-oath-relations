@@ -63,7 +63,7 @@ class Cult
 
     def my_followers_mottos
         self.followers.each do |follower|
-            puts follower.motto
+            puts follower.life_motto
         end
     end
 
